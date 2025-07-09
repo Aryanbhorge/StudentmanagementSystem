@@ -2,6 +2,13 @@ package corejava;
 
 import java.sql.*;
 import java.util.Scanner;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Scanner;
 
 public class JDBC_StudentManagement {
     private static final String URL = "jdbc:postgresql://localhost:5432/mydb";
