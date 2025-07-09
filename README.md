@@ -1,19 +1,18 @@
 # StudentmanagementSystem
 Java Maven PostgreSQL JDBC
 
-The Employee Management System is a console-based application built using Core Java, JDBC, and PostgreSQL. It allows users to perform CRUD (Create, Read, Update, Delete) operations on employee records stored in a PostgreSQL database. The application is menu-driven, providing a simple and intuitive interface for managing employee data.
+The Student Management System is a console-based application built using Core Java, JDBC, and PostgreSQL. It allows users to perform CRUD (Create, Read, Update, Delete) operations on Student records stored in a PostgreSQL database. The application is menu-driven, providing a simple and intuitive interface for managing Student data.
 
 Features
-Add Employee: Add a new employee record to the database.
-View All Employees: Fetch and display all employee records.
-Update Employee: Update an existing employee's details (e.g., name, age, department, salary).
-Delete Employee: Delete an employee record by ID.
+Add Student: Add a new Student record to the database.
+Update Students: Update an existing Student's details (e.g., ID, Rollno, age, marks).
+Delete Student: Delete an Student record by ID.
 Menu-Driven Interface: Easy-to-use console-based menu for seamless navigation.
-Use Collectios For retrive all employee list.
+Use Collectios For retrive all Student list.
 Technologies Used
 Core Java: For implementing the application logic and OOPs concepts.
 JDBC (Java Database Connectivity): For connecting to and interacting with the PostgreSQL database.
-PostgreSQL: For storing and managing employee data.
+PostgreSQL: For storing and managing student data.
 Maven: For project dependency management and building the project.
 Dependencies
 The project uses the following dependencies:
@@ -31,17 +30,16 @@ Java Development Kit (JDK) 17 or higher.
 Apache Maven 3.8.6 or higher.
 PostgreSQL 15 or higher.
 create PostgreSQL database with the following table:
-CREATE TABLE employees (
+CREATE TABLE studentsdetails (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
+    Rollno int NOT NULL,
     age INT NOT NULL,
-    department VARCHAR(100) NOT NULL,
-    salary DECIMAL(10, 2) NOT NULL
+    ,marks in not null
 );
 Contact
 For any questions or feedback, feel free to reach out:
 
-Your Name : Amar Dole
-Email: amardole7576@gmail.com
-GitHub: Amardole
-Enjoy using the Employee Management System! 🚀
+Your Name : Aryan Bhorge
+Email: bhorgearyan@gmail.com
+GitHub: Aryanbhorge
+Enjoy using the Student Management System! 🚀
