@@ -108,7 +108,7 @@ public class JDBC_StudentManagement {
             System.out.println("2. Insert Student");
             System.out.println("3. Update Student");
             System.out.println("4. Show Students");
-            System.out.println("5. Update Student");
+            System.out.println("5. Delete Student");
             System.out.println("6. Exit");
 
             System.out.print("Enter your choice: ");
