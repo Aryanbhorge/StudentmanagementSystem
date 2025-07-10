@@ -47,6 +47,7 @@ Name:Gaurav Hingole
 Email:gavravhingole@gmail.com
 GitHub:Gaurav_Hingole
 Enjoy using the Student Management System! 🚀
+<img width="856" height="506" alt="image" src="https://github.com/user-attachments/assets/b4513844-2118-4950-8437-ccdf0f1f674c" />
 
 
 
