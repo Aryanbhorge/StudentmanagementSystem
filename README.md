@@ -34,7 +34,7 @@ CREATE TABLE studentsdetails (
     id SERIAL PRIMARY KEY,
     Rollno int NOT NULL,
     age INT NOT NULL,
-    ,marks in not null
+    ,marks int not null
 );
 Contact
 For any questions or feedback, feel free to reach out:
@@ -42,4 +42,8 @@ For any questions or feedback, feel free to reach out:
 Your Name : Aryan Bhorge
 Email: bhorgearyan@gmail.com
 GitHub: Aryanbhorge
+Team Member:
+Name:Gaurav Hingole
+Email:gavravhingole@gmail.com
+GitHub:Gaurav_Hingole
 Enjoy using the Student Management System! 🚀
